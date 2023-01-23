@@ -61,21 +61,13 @@ public class StarsTester {
 					System.out.print("Enter number of stars: ");
 					numberOfStars = kboard.nextInt();
 					System.out.print("\n");
-					pattern.printStarPyramid(numberOfStars);
-					System.out.print("\n");
-					break;
-					
-				case 5:
-					System.out.print("Enter number of stars: ");
-					numberOfStars = kboard.nextInt();
-					System.out.print("\n");
 					pattern.printStarDiamond(numberOfStars);
 					System.out.print("\n");
 					break;
 
 				}
 				
-			}while (choice != 7);
+			}while (choice != 5);
 		
 		kboard.close();
 			
